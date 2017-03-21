@@ -65,7 +65,7 @@ fn main() {
         parser.refer(&mut options.exit_success)
             .add_option(&["-s", "--success-code"], argparse::Store, "Exit code returned by the checker program on success.");
         parser.refer(&mut options.checker)
-            .add_option(&["-c", "--cheker"], argparse::Store, "Validator program.")
+            .add_option(&["-c", "--checker"], argparse::Store, "Validator program.")
             .required();
         parser.refer(&mut options.filename)
             .add_argument("filename", argparse::Store, "File to edit.")
