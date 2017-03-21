@@ -1,0 +1,7 @@
+[package]
+name = "visafe"
+version = "0.1.0"
+authors = ["Vyronas Tsingaras <vyronas@vtsingaras.me>"]
+
+[dependencies]
+argparse = '*'
